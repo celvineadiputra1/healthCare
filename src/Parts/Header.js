@@ -1,26 +1,27 @@
 import React from "react";
 import Button from "../elements/Button";
+import { Link } from "react-router-dom";
 export default function Header() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light p-4">
             <div className="container-fluid d-flex">
-                <a className="navbar-brand" href="#">
+                <Link className="navbar-brand" to="#">
                     <span className="logoSpan">Health</span>Care.
-                </a>
+                </Link>
                 <div>
                     <div className="navbar-nav">
-                        <a className="nav-link active mr-40px" href="#">
+                        <Link className="nav-link active mr-40px" to="#">
                             Home
-                        </a>
-                        <a className="nav-link mr-40px" href="#">
+                        </Link>
+                        <Link className="nav-link mr-40px" to="#">
                             Find a doctor
-                        </a>
-                        <a className="nav-link mr-40px" href="#">
+                        </Link>
+                        <Link className="nav-link mr-40px" to="#">
                             Testimonials
-                        </a>
-                        <a className="nav-link" href="#">
+                        </Link>
+                        <Link className="nav-link" to="#">
                             About Us
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="space-donate">
