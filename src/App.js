@@ -1,11 +1,15 @@
 import React from "react";
-import "./App.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import LandingPage from "../src/Pages/LandingPage";
+import "../src/Assets/scss/style.scss";
 
 function App() {
     return (
-        <section>
-            <h1>WELCOME HEALTHCAREME</h1>
-        </section>
+        <div className="App">
+            <Router>
+                <Route path="/" component={LandingPage}></Route>
+            </Router>
+        </div>
     );
 }
 
