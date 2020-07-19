@@ -5,9 +5,9 @@ import Button from "../elements/Button";
 export default function Hero() {
     return (
         <section className="container mt-6">
-            <div className="row">
-                <div className="col-sm-5 offset-sm-1 d-flex align-items-center">
-                    <div className="hero-title">
+            <div className="row d-flex align-items-center flex-column-reverse flex-lg-row  text-center-sm">
+                <div className="col-lg-5 col-sm-12 offset-lg-1 mt-2-custom">
+                    <div className="hero-title flex-medium">
                         <h1>Virtual healthcare for you</h1>
                         <p className="font-weight-light">
                             HealthCare. provides progressive, and affordable
