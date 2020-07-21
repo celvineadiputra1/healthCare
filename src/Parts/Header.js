@@ -1,34 +1,50 @@
 import React from "react";
 import Button from "../elements/Button";
-import { Link } from "react-router-dom";
+
 export default function Header() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light p-4">
             <div className="container-fluid">
-                <Link className="navbar-brand text-center w-100-custom" to="/">
+                <Button
+                    className="navbar-brand text-center w-100-custom"
+                    href="/"
+                    type="LINK">
                     <span className="logoSpan">Health</span>Care.
-                </Link>
+                </Button>
                 <div className="navbar-nav d-block-custom">
-                    <Link className="nav-link active mr-40px" to="#">
+                    <Button
+                        className="nav-link active mr-40px"
+                        type="LINK"
+                        href="/">
                         Home
-                    </Link>
-                    <Link className="nav-link mr-40px" to="#">
+                    </Button>
+                    <Button
+                        className="nav-link mr-40px"
+                        type="LINK"
+                        href="/FindADoctor">
                         Find a doctor
-                    </Link>
-                    <Link className="nav-link mr-40px" to="#">
+                    </Button>
+                    <Button
+                        className="nav-link mr-40px"
+                        type="LINK"
+                        href="/Testimonial">
                         Testimonials
-                    </Link>
-                    <Link className="nav-link" to="#">
+                    </Button>
+                    <Button className="nav-link" type="LINK" href="/AboutUs">
                         About Us
-                    </Link>
+                    </Button>
                 </div>
                 <div className="space-donate d-block-custom">
-                    <Button isPrimary className="font-weigth-bold w-100-custom">
+                    <Button
+                        isPrimary
+                        className="font-weigth-bold w-100-custom"
+                        type="BUTTON">
                         DONATE NOW
                     </Button>
                     <Button
                         isInfo
-                        className="text-white font-weight-bold ml-2 w-100-custom mt-2-custom">
+                        className="text-white font-weight-bold ml-2 w-100-custom mt-2-custom"
+                        type="BUTTON">
                         GET NOW
                     </Button>
                 </div>

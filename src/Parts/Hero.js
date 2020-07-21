@@ -14,7 +14,10 @@ export default function Hero() {
                             healthcare, accessible on mobile and online for
                             everyone and free
                         </p>
-                        <Button className="btn-colsult mt-4" isPrimary>
+                        <Button
+                            className="btn-colsult mt-4"
+                            isPrimary
+                            type="BUTTON">
                             Consult Today Free
                         </Button>
                     </div>
