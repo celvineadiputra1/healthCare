@@ -65,10 +65,10 @@
 }
 
 .hero-title {
-    width: 344px;
+    width: 441px;
 }
 .img-hero {
-    width: 550px;
+    width: 700px;
 }
 .btn-colsult {
     width: 253px;
@@ -77,6 +77,40 @@
 .font-weigth-bold {
     font-weight: 400;
 }
+.container-fluid {
+    &.mt-10 {
+        margin-top: 10rem;
+    }
+}
+.content-box {
+    background-color: $gray-500;
+    min-height: 286px;
+}
+
+.text-weight-light {
+    font-weight: 400;
+}
+
+.card-custom {
+    width: 350px;
+    height: 354px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 18px 50px #c9daff;
+    p {
+        width: 250px;
+    }
+}
+
+.mt-minus-144 {
+    margin-top: -144px;
+}
+
+.icon-Style {
+    width: 120px;
+    height: 120px;
+}
+
 @media screen and (min-width: 360px) and (max-width: 392px) {
     .img-hero {
         width: 300px;

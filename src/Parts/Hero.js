@@ -4,11 +4,13 @@ import Button from "../elements/Button";
 
 export default function Hero() {
     return (
-        <section className="container mt-6">
-            <div className="row d-flex align-items-center flex-column-reverse flex-lg-row  text-center-sm">
-                <div className="col-lg-5 col-sm-12 offset-lg-1 mt-2-custom">
+        <section className="container">
+            <div className="row d-flex align-items-center flex-column-reverse flex-lg-row text-center-sm vh-100">
+                <div className="col-lg-5 col-sm-12 offset-lg-1">
                     <div className="hero-title flex-medium">
-                        <h1>Virtual healthcare for you</h1>
+                        <h1 style={{ fontSize: 48 }}>
+                            Virtual healthcare for you
+                        </h1>
                         <p className="font-weight-light">
                             HealthCare. provides progressive, and affordable
                             healthcare, accessible on mobile and online for
